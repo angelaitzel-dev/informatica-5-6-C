@@ -11,6 +11,6 @@ def main():
     mxn = round(ctomx + ptomx + btomx, 2)
     usd = round(ctous + ptous + btous, 2)
     print(f"MXN: ${mxn}")
-    print(f"USD: ${usd}"
+    print(f"USD: ${usd}")
 if __name__ == "__main__":
     main()
