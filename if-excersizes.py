@@ -4,7 +4,7 @@ def main():
     operation = input("Type if you want to add, subtract, multiply, or divide? ")
     result = 0
     if operation == "add":
-        result= numberA + numberB
+        result = numberA + numberB
         print(f"{result}")
 
     elif operation == "subtract":
