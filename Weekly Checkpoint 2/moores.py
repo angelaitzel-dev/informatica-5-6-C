@@ -9,7 +9,7 @@ def main():
     else:
         years /= 2
         transistors *= (2**years)
-        transistors = round(transistors)
+        transistors = round(transistors, 2)
         print(f"This is the prediction for the future: {transistors}")
 
 
