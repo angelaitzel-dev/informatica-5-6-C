@@ -5,9 +5,6 @@ def main():
     difficulty = input((f"Well, {name},  I have a guessing game, do you wanna play easy, medium, or hard? ")).strip().title()
     guess = ""
     number = ""
-    attempts = 6
-    while attempts > 0:
-
         if difficulty == "Hard":
             number = random.randint(1,100)
             print("I am thinking of a number between 1 and 100")
