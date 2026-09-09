@@ -9,14 +9,13 @@ def main():
     correct = ("Your answer is correct!")
     incorrect = ("Your answer is wrong")
     streak = 0
-    star = "⭐"
+
 
     print("Addition for dummies")
     print("")
 
 
     while prompt != result:
-
         number1 = random.randint(10,99)
         number2 = random.randint(10,99)
         result = (number1 + number2)
@@ -24,30 +23,18 @@ def main():
         prompt = int(input("Your answer = "))
         if prompt == result:
             print(f"{correct}")
-            streak = star
-            print(f"Streak: {streak}")
+            streak += 1
+            if streak == 1:
+                print("Streak= ⭐")
+            elif streak == 2:
+                print ("Streak = ⭐⭐")
+        elif streak == 3:
+            print("You won!")
+            print("Streak = ⭐⭐⭐")
         if prompt != result:
             print(f"{incorrect}")
             streak = 0
             print("Streak lost")
-
-    while prompt != result:
-        number1 = random.randint(10,99)
-        number2 = random.randint(10,99)
-        result = (number1 + number2)
-        print(f"What is {number1} + {number2}?")
-        prompt = int(input("Your answer = "))
-        if prompt == result:
-            print(f"{correct}")
-            streak = star
-            print(f"Streak: {streak}")
-        if prompt != result:
-            print(f"{incorrect}")
-            streak = 0
-            print("Streak lost")
-
-
-
 
 
 if __name__ == "__main__":
