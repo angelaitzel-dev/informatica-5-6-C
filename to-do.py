@@ -11,8 +11,8 @@ def main():
         elif answer == "complete":
             ask = input("Have you finshed all of them?").strip().lower()
             if ask == "yes":
+                tasks.clear()
                 print("You finished all of them!")
-                print(tasks)
                 break
             else:
                 tasks.remove(input("What did you finish?"))

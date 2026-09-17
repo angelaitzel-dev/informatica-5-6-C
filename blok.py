@@ -1,8 +1,4 @@
-def main():
-
-    while 
-        print("Hi")
-
-if __name__ == "__main__":
-    main()
-
+animals = ['cat', 'dog', 'moose']
+print(animals)
+animals[2] = 'cow'
+print(animals)
