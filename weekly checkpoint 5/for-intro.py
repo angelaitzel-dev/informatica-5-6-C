@@ -3,6 +3,8 @@ def main():
     for d in range(len(doctrine)):
         print(f"{d+1}. {doctrine[d]}")
 
+    
+
 
 if __name__ == "__main__":
     main()
