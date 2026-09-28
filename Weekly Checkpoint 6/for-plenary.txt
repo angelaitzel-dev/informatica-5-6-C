@@ -1,0 +1,8 @@
+a while loop is used for a repeating action that will continue until the user breaks the condition
+or the program is forced to end by the program itself with a break
+
+a for loop is one that is gonna be with a strict condition that will have a variable that will be
+included in the final code and is based on a colection or range for it to work
+
+these two are different because the for loop shares with a list or range and a while loop is
+within a logical condition that can also be True until it is broken.
