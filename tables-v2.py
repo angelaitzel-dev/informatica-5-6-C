@@ -30,7 +30,5 @@ def main():
         except ValueError:
             print("You didn't enter a number to be quizzed on")
     print(f"Your Score was {score}/{max_value}")
-
-
 if __name__ == "__main__":
     main()
