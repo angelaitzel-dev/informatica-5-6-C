@@ -6,7 +6,7 @@ def main():
 
     if 1 <= times_table <= 10:
 
-        print(f"Here is the {times_table} times table")
+        print(f"Here is the {times_table} times table quiz")
 
         for x in range(1, max_value +1):
             answer = x * times_table
