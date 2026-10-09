@@ -14,7 +14,7 @@ def main():
 
 def binary_to_decimal(binary):
     print("")
-    reverse = binary
+    reverse = range(len(binary))
     results = 0
     miau = 0
     for i in reverse:
