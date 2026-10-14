@@ -1,3 +1,54 @@
+import random
+def main():
+    # with open("words.txt") as file:
+    #     words = file.read().splitlines()
+    #     word = random.choice(words)
+    start_game("words.txt")
+
+def start_game(a):
+    with open(a) as file:
+        words = file.read().splitlines()
+        word = random.choice(words)
+        print(word)
+
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # do an import random to have the random words
 # create a txt file with all the words
 # define the main function
