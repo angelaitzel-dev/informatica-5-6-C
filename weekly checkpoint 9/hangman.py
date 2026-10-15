@@ -106,4 +106,5 @@ if __name__ == "__main__":
 # Use an elif statement if no letter matched in the file to add one body part to the hangman or take away one live of the user
 # When the word is complete break the loop and then if it is complete print "You Won"
 # If the user runs out of lves print the word normally then break the loop with a "you lost"
-#
+# if the user puts any other repeated letter make sure to let them know
+# make a letter bank for letters already used
